@@ -42,7 +42,7 @@ defmodule Memcachir.Mixfile do
   defp deps do
     [
       {:benchfella, "~> 0.3", only: :dev},
-      {:credo, "~> 0.10", only: [:dev, :test]},
+      {:credo, "~> 1.3", only: [:dev, :test]},
       {:dialyxir, "~> 0.5", only: :dev, runtime: false},
       {:elasticachex, "~> 1.1"},
       {:ex_doc, "~> 0.19", only: :dev},
